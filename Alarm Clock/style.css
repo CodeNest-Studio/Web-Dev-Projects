@@ -22,3 +22,8 @@
 a:any-link{
     text-decoration: none;
 }
+
+#alarm{
+    height:30px;
+    border-radius: 8px;
+}
