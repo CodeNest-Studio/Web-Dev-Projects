@@ -10,3 +10,15 @@
 .bgcolor{
     background-color: #b4cded;
 }
+
+.more{
+    color: #ffffff;
+}
+
+.more:hover{
+    color: #fdfffc;
+}
+
+a:any-link{
+    text-decoration: none;
+}
