@@ -7,3 +7,6 @@ This website tells us about the timezone, date & other specific info of differen
 1. **Development:** HTML, CSS & Javascript
 2. **Styling:** Bootstrap Library
 
+## Preview Link
+https://world-alarm-clock.netlify.app/
+
