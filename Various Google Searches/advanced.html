@@ -1,0 +1,58 @@
+<!DOCTYPE  html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="box">
+            <ul class="navbar">
+                <li class="display"><img src="google.png" alt="Google icon" height="24" width="74"></li>
+                <li class="navbar-item"><a href="index.html">Google</a></li>
+            </ul>
+        </div>  
+        <div class="advance">
+            <label style="margin-left: 10px">Advanced Search</label>
+        </div>    
+        <div class="border"></div>
+        <form action="https://www.google.com/search">
+           <p class="adv">Find pages with...</p>
+           <div class="label">
+                <div class="left">
+                    <p>all these words:</p>               
+                </div>
+                <div class="right">
+                    <input type="text" name="as_q" class="form-ip">
+                </div>    
+           </div>
+           <div class="label">
+                <div class="left">
+                    <p>this exact word or phrase:</p>               
+                </div>
+                <div class="right">
+                    <input type="text" name="as_epq" class="form-ip">
+                </div>    
+            </div>
+            <div class="label">
+                <div class="left">
+                    <p>any of these words:</p>               
+                </div>
+                <div class="right">
+                    <input type="text" name="as_oq" class="form-ip">
+                </div>    
+            </div>
+            <div class="label">
+                <div class="left">
+                    <p>none of these words:</p>               
+                </div>
+                <div class="right">
+                    <input type="text" name="as_eq" class="form-ip">
+                </div>    
+            </div>   
+
+                <div class="adv-btn">
+                    <input type="submit" value="Advanced Search" class="adv-search">            
+                </div>            
+        </form>
+    </body>
+</html>
